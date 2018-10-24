@@ -42,8 +42,8 @@ namespace Tch.Uwp.TabControlSpike.ViewModel
     public void OpenNewFriendDetail()
     {
       var item = _friendDetailCreator();
-      item.FirstName = "Thomas";
-      item.LastName = "Huber " + _newItemCounter++;
+      item.FirstName = "New";
+      item.LastName = "Tab " + _newItemCounter++;
       item.HasChanges = false;
       Details.Add(item);
       SelectedDetail = item;

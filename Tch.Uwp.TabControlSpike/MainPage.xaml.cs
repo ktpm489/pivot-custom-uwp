@@ -10,7 +10,8 @@ namespace Tch.Uwp.TabControlSpike
       this.InitializeComponent();
       ViewModel = viewModel;
     }
+        //https://blog.hompus.nl/2015/09/04/responsive-pivot-headers-in-universal-windows-platform-apps/
 
-    public MainViewModel ViewModel { get; }
+        public MainViewModel ViewModel { get; }
   }
 }
